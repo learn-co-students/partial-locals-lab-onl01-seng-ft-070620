@@ -1,0 +1,7 @@
+<h1>Student Query: from <%= @query %></h1>
+
+<% @students.each do |s| %>
+    <p>
+        <%= render partial: 'student', locals: {student: s} %>
+    </p>
+<% end %>
