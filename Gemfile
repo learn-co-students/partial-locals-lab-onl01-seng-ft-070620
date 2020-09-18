@@ -39,6 +39,7 @@ group :development, :test do
   gem 'annotate'
   gem 'faker', "~> 2.4.0"
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'pry'
 end
 
 group :development do
