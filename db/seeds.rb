@@ -15,5 +15,5 @@ Classroom.create(course_name: 'Chemistry', semester: "Fall #{Time.now.year}")
 
 
 Classroom.all.each_with_index do |classroom, i|
-  classroom.students << [Student.limit(8).offset(i*2)]
+  classroom.students << [Student.limit(8).offset(i*2)]43
 end
