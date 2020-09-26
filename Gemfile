@@ -1,5 +1,6 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
+source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
@@ -35,9 +36,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'rspec-rails',      ">= 2.0.0.beta"
   gem 'annotate'
-  gem 'faker', "~> 2.4.0"
+  gem 'faker', '~> 2.4.0'
+  gem 'rspec-rails', '>= 2.0.0.beta'
 end
 
 group :development do
